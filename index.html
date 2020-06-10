@@ -1,19 +1,57 @@
-
 <!doctype html>
-<html lang="en">
+<html lang="en" class="fullscreen-bg">
 
 <head>
-    <!-- Required meta tags -->
+    <title>Presensi Online</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+	<link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="custom.min.css">
+	<style>
+.button {
+  background-color: #333355; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
 
-    <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-	<!--	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
-    <title>Kelulusan</title>
-	<style> body { background-color : #ffff88; }  </style>
-	<script type="text/javascript" src="cordova.js"></script>      
+.button1:hover {
+box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24),0 2px 10px 0 rgba(0,0,0,0.19);
+padding: 7px 24px;}
+
+.button2 {
+  background-color: #ee3333; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+}
+
+.button3:hover {
+box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24),0 2px 10px 0 rgba(0,0,0,0.19);
+padding: 7px 24px;}
+	</style>
+<script type="text/javascript" src="cordova.js"></script>      
 	<script type="text/javascript"">
 	function onLoad()
         {
@@ -23,46 +61,43 @@
          {
             navigator.app.exitApp();
          }
-	</script>
+	</script>	
 </head>
 
-<body bgcolor="yellow">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-	<div class=container>
-	    <img src="logo.png" height="34">
-		<a class="navbar-brand" href="#">Kelulusan 2019/2020</a>
-		<button onclick="exitFromApp()" class="btn btn-dark"><b>X</b></button>
-        </div>
-	</div>    
-    </nav>
-    <div class="container">
-        <div class="row mt-3 justify-content-center">
-            <div class="col-md-8">
-                <h4 class=text-center>Kelulusan Ujian Siswa</h4>
-				<h4 class=text-center>SMK Kosgoro 2 Padang</h4>
-				<h5 class=text-center>Tahun Pelajaran 2019/2020</h5>
-					<div class="input-group mb-3 mt-3">
-					  <input type="text" class="form-control" placeholder="inputkan nomor ujian" id="search-input" >
-					  <div class="input-group-append">
-						<button class="btn btn-primary" type="button" id="search-button">Lihat</button>
-						
-					  </div>					  
-					</div>
-            </div>
-        </div>
-			<center><font color=green><b>contoh : 4-20-08-01-0105-xxxx-x</b></font></center>
-			<center><font color=red><b><i>Pastikan HP Anda terhubung ke internet !</i></b></font></center>
-			<center><font color=blue><b>by : Jhoni Eka Putra, S.Kom</b></font></center>
-				<hr>
-        <div class="container" id="movie-list"> 			
-        </div>
-		
-    </div>
-		
+<body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
+    <div class="wrapper">
+		<div class="bg"><img src="bg-header.png"></div>
+		<div class="container">
+			<div class="header">
+				<div class="logo logo-center">
+					
+					<div>
+						<h2>&nbsp;</h2>
+						<font size=5 color=white><center>&nbsp;</font>
+					</div>
+				</div>
+			</div>
+			<div class="card login">
+				
+									
+						<table border=0 width=100% height=380px style='background-image: url(presensi.png);background-size: 100%;background-repeat: no-repeat;'>
+						<tr height=58%><td width=50%></td><td valign=top align=right>
+						<table width=5% border=0><tr><td>
+						<button style='background-color: Transparent;border: none;' onclick="exitFromApp()" ><b>X</button>
+						</td></tr></table>
+						
+						</td></tr>
+						<tr><td><center>
+						<a href='https://zfrmz.com/Dw0OG2sUAw0r17DwjDeH'>
+						<button class="button2 button1" ><b>MASUK</button></a>
+						</td><td><center><a href='https://zfrmz.com/oivY0jQR82W9XNub7XMt'>
+						<button class="button button1"><b>PULANG</button></a>
+						</tr></table>			
+			</div>
+		</div>
+    </div>
+	 <script
   src="js/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>

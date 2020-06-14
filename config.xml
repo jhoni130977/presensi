@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/2.4" id="jhoni-1" version="2.3.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/3.5" id="jhoni-1" version="2.3.1">
   <name>Presensi-V2</name>
   <description>Presensi-V2</description>
   <author href="http://todak-source.com" email="jhonipratama13@gmail.com.com">Jhoni Eka Putra-1</author>
